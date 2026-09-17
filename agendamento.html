@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendamento | Auto e Cia Oficina Mecânica</title>
+  <meta name="description" content="Agende motor, freios, suspensão, alinhamento, óleo ou câmbio na oficina mecânica Auto e Cia em Paulo Lopes/SC.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="logo" href="index.html">
+        <div class="logo-mark">A</div>
+        <div>AUTO E CIA<div><span>Mecânica</span></div></div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a class="active" href="agendamento.html">Agendamento</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="btn btn-primary" href="agendamento.html">Agendar agora</a>
+        <button class="menu-btn" aria-label="Abrir menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <img src="img/oficina-box.jpg" alt="Agendar na oficina mecânica Auto e Cia">
+      <div class="container">
+        <p class="kicker">Agenda do box</p>
+        <h1>Reserve o elevador para o seu carro.</h1>
+        <p class="muted" style="max-width:60ch;margin-top:14px">Só serviços mecânicos. Informe o veículo, o que está sentindo e o horário. Confirmamos a vaga em seguida.</p>
+      </div>
+    </section>
+
+    <section style="padding-top:8px">
+      <div class="container form-grid">
+        <form data-form data-success="Pedido recebido. Vamos confirmar seu horário em breve.">
+          <div class="row-2">
+            <label>Nome completo<input name="nome" required placeholder="Seu nome"></label>
+            <label>Telefone<input name="telefone" required placeholder="Seu telefone"></label>
+          </div>
+          <label>Serviço mecânico
+            <select name="servico" required>
+              <option value="">Selecione</option>
+              <option>Motor</option>
+              <option>Freios</option>
+              <option>Suspensão</option>
+              <option>Alinhamento e balanceamento</option>
+              <option>Troca de óleo e filtro</option>
+              <option>Câmbio e transmissão</option>
+              <option>Revisão mecânica</option>
+            </select>
+          </label>
+          <div class="row-2">
+            <label>Marca e modelo<input name="veiculo" required placeholder="Ex.: Gol 1.6"></label>
+            <label>Data preferida<input type="date" name="data" required></label>
+          </div>
+          <label>Período
+            <select name="periodo" required>
+              <option value="">Selecione</option>
+              <option>Manhã (8h – 12h)</option>
+              <option>Tarde (13h – 18h)</option>
+              <option>Sábado manhã (8h – 12h)</option>
+            </select>
+          </label>
+          <label>O que o carro está sentindo?<textarea name="obs" rows="5" placeholder="Barulho, vazamento, pedal baixo, volante puxando, kilometragem..."></textarea></label>
+          <button class="btn btn-primary btn-lg" type="submit">Enviar pedido</button>
+        </form>
+
+        <aside class="side-card">
+          <h3>No elevador</h3>
+          <p class="muted">O carro sobe, a gente inspeciona e só troca o que você autorizar. Elétrica não entra neste box.</p>
+          <ul class="contact-list" style="margin-top:18px">
+            <li><span>Óleo e filtro</span><strong>~45 min</strong></li>
+            <li><span>Freios</span><strong>~2h</strong></li>
+            <li><span>Alinhamento</span><strong>~1h</strong></li>
+            <li><span>Revisão</span><strong>3 a 4h</strong></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html"><div class="logo-mark">A</div><div>AUTO E CIA</div></a>
+        <p style="margin-top:12px">Oficina mecânica em Paulo Lopes/SC.</p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <div class="footer-links">
+          <a href="servicos.html">Serviços</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="agendamento.html">Agendamento</a>
+        </div>
+      </div>
+      <div>
+        <h4>Horários</h4>
+        <p>Seg a sex: 8h – 18h<br>Sábado: 8h – 12h</p>
+      </div>
+      <div>
+        <h4>Endereço</h4>
+        <p>BR-101, KM 252<br>Anexo ao Posto Sorocaba</p>
+      </div>
+    </div>
+    <div class="container copy"><span>© <span data-year></span> Auto e Cia Oficina Mecânica.</span></div>
+  </footer>
+  <div class="toast"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
