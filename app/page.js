@@ -160,7 +160,7 @@ export default function HomePage() {
           </div>
           <div>
             <p className="kicker">O que fazemos</p>
-            <h2>Somos oficina mecânica. Sem desvio, sem elétrica.</h2>
+            <h2>Oficina mecânica. Cuidado em cada detalhe.</h2>
             <p className="work-lead">
               Na Auto e Cia o trabalho é mecânico do começo ao fim: abrir, medir, trocar, apertar no torque e devolver o
               carro pronto para a estrada. Cuidamos de motor, freios, suspensão, alinhamento, óleo e câmbio — o que o
