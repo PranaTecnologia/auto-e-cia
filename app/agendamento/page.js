@@ -3,7 +3,7 @@ import BookingForm from "@/components/BookingForm";
 export const metadata = {
   title: "Agendamento",
   description:
-    "Agende motor, freios, suspensão, alinhamento, óleo ou câmbio na oficina mecânica Auto e Cia em Paulo Lopes/SC.",
+    "Agende motor, freios, suspensão, alinhamento, óleo ou câmbio na oficina mecânica Auto e Cia em Santo Amaro da Imperatriz/SC.",
 };
 
 export default function AgendamentoPage() {

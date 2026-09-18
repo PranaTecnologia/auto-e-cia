@@ -7,7 +7,7 @@ export default function HomePage() {
       <section className="hero">
         <div className="hero-content hero-layout">
           <div>
-            <div className="eyebrow">Oficina mecânica • Paulo Lopes/SC</div>
+            <div className="eyebrow">Oficina mecânica • Santo Amaro da Imperatriz/SC</div>
             <h1>AUTO E CIA Mecânica. Seu carro em boas mãos.</h1>
             <p className="lead">
               Motor, freios, suspensão, alinhamento, óleo e câmbio. Mais de 18 anos no box, com garantia de 3 meses e
@@ -37,7 +37,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="hero-photo">
-            <img src="/img/banner-oficina.png" alt="Box da oficina mecânica Auto e Cia em Paulo Lopes" />
+            <img src="/img/banner-oficina.png" alt="Box da oficina mecânica Auto e Cia em Santo Amaro" />
             <aside className="hero-card">
               <p className="kicker">No box agora</p>
               <h3>Ferramenta na bancada. Carro no elevador.</h3>
@@ -99,7 +99,7 @@ export default function HomePage() {
                 <img src="/img/oficina-freio.jpg" alt="Freios" />
               </div>
               <h3>Freios</h3>
-              <p>Pastilhas, discos, fluido e o pedal firme para a descida da serra e a BR-101.</p>
+              <p>Pastilhas, discos, fluido e o pedal firme para a serra e o dia a dia na estrada.</p>
               <Link className="btn btn-primary" style={{ marginTop: 16 }} href="/agendamento">
                 Agendar agora
               </Link>
@@ -226,7 +226,7 @@ export default function HomePage() {
             <article className="card step">
               <div className="num">04</div>
               <h3>Entregamos</h3>
-              <p>Conferência final, garantia de 3 meses e o carro pronto para voltar à BR-101.</p>
+              <p>Conferência final, garantia de 3 meses e o carro pronto para voltar à estrada.</p>
             </article>
           </div>
         </div>
@@ -330,7 +330,7 @@ export default function HomePage() {
           </details>
           <details>
             <summary>Onde fica a oficina?</summary>
-            <p>BR-101, KM 252, anexo ao Posto Sorocaba, Paulo Lopes/SC. Fácil para quem vem de Garopaba, Imbituba, Palhoça e região.</p>
+            <p>Santo Amaro da Imperatriz/SC. Fácil para quem vem de Palhoça, Florianópolis, Águas Mornas e região.</p>
           </details>
         </div>
       </section>
@@ -338,9 +338,9 @@ export default function HomePage() {
       <section>
         <div className="container">
           <div className="cta-banner">
-            <img src="/img/oficina-elevador.jpg" alt="Oficina mecânica Auto e Cia em Paulo Lopes" />
+            <img src="/img/oficina-elevador.jpg" alt="Oficina mecânica Auto e Cia em Santo Amaro" />
             <div>
-              <p className="kicker">Paulo Lopes e região</p>
+              <p className="kicker">Santo Amaro e região</p>
               <h2>Coloque o carro na bancada certa.</h2>
               <p className="muted">Segunda a sábado. Só mecânica, com vaga pelo agendamento.</p>
             </div>

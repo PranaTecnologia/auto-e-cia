@@ -11,11 +11,11 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    default: "AUTO E CIA Mecânica | Oficina em Paulo Lopes - SC",
+    default: "AUTO E CIA Mecânica | Oficina em Santo Amaro da Imperatriz - SC",
     template: "%s | Auto e Cia",
   },
   description:
-    "Oficina mecânica em Paulo Lopes/SC: motor, freios, suspensão, alinhamento, óleo e câmbio. Mais de 18 anos na BR-101, KM 252, anexo ao Posto Sorocaba.",
+    "Oficina mecânica em Santo Amaro da Imperatriz/SC: motor, freios, suspensão, alinhamento, óleo e câmbio. Mais de 18 anos no box, com garantia de 3 meses.",
   icons: {
     icon: "/favicon.svg",
   },

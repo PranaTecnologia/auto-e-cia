@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Serviços mecânicos",
   description:
-    "Serviços de oficina mecânica na Auto e Cia em Paulo Lopes: motor, freios, suspensão, alinhamento, óleo, câmbio e revisão. Agende pelo site.",
+    "Serviços de oficina mecânica na Auto e Cia em Santo Amaro da Imperatriz: motor, freios, suspensão, alinhamento, óleo, câmbio e revisão. Agende pelo site.",
 };
 
 export default function ServicosPage() {
@@ -37,7 +37,7 @@ export default function ServicosPage() {
               <img src="/img/oficina-freio.jpg" alt="Freios" />
             </div>
             <h3>Freios</h3>
-            <p>Pastilhas, discos, fluido e o sistema de frenagem conferido para o uso pesado da BR-101.</p>
+            <p>Pastilhas, discos, fluido e o sistema de frenagem conferido para o uso na serra e na estrada.</p>
             <Link className="btn btn-primary" style={{ marginTop: 16 }} href="/agendamento">
               Agendar agora
             </Link>

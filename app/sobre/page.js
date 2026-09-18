@@ -4,7 +4,7 @@ import Gallery from "@/components/Gallery";
 export const metadata = {
   title: "Sobre",
   description:
-    "Auto e Cia é oficina mecânica em Paulo Lopes/SC, na BR-101 KM 252. Mais de 18 anos de motor, freios, suspensão e revisão com garantia de 3 meses.",
+    "Auto e Cia é oficina mecânica em Santo Amaro da Imperatriz/SC. Mais de 18 anos de motor, freios, suspensão e revisão com garantia de 3 meses.",
 };
 
 export default function SobrePage() {
@@ -14,7 +14,7 @@ export default function SobrePage() {
         <img src="/img/oficina-mecanico.jpg" alt="Mecânico da Auto e Cia no motor" />
         <div className="container">
           <p className="kicker">A oficina</p>
-          <h1>18 anos de box, elevador e mecânica em Paulo Lopes.</h1>
+          <h1>18 anos de box, elevador e mecânica em Santo Amaro.</h1>
         </div>
       </section>
 
@@ -23,8 +23,8 @@ export default function SobrePage() {
           <div>
             <p className="muted">
               A Auto e Cia nasceu como oficina mecânica e continua assim: motor, freio, suspensão, alinhamento, óleo e
-              câmbio. Estamos no KM 252 da BR-101, anexo ao Posto Sorocaba, atendendo Paulo Lopes, Garopaba, Imbituba,
-              Palhoça e quem passa na região sul.
+              câmbio. Estamos em Santo Amaro da Imperatriz, atendendo Palhoça, Florianópolis, Águas Mornas e quem passa
+              na região.
             </p>
             <ul className="checklist">
               <li>Foco exclusivo em mecânica automotiva</li>
@@ -102,8 +102,8 @@ export default function SobrePage() {
             <p>sem juros</p>
           </article>
           <article className="card">
-            <strong>BR-101</strong>
-            <p>KM 252, Paulo Lopes</p>
+            <strong>Santo Amaro</strong>
+            <p>da Imperatriz/SC</p>
           </article>
         </div>
       </section>

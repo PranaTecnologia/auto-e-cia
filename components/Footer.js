@@ -12,7 +12,7 @@ export default function Footer() {
             <div>AUTO E CIA</div>
           </Link>
           <p style={{ marginTop: 12 }}>
-            Oficina mecânica em Paulo Lopes/SC. Motor, freios, suspensão e revisão na BR-101, KM 252.
+            Oficina mecânica em Santo Amaro da Imperatriz/SC. Motor, freios, suspensão e revisão.
           </p>
         </div>
         <div>
@@ -34,11 +34,9 @@ export default function Footer() {
         <div>
           <h4>Endereço</h4>
           <p>
-            BR-101, KM 252
+            Santo Amaro da Imperatriz
             <br />
-            Anexo ao Posto Sorocaba
-            <br />
-            Paulo Lopes/SC
+            Santa Catarina
           </p>
         </div>
       </div>
